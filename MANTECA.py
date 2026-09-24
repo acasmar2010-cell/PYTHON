@@ -1,1 +1,5 @@
-
+numero = int ( input ("Ingrese un número: "))
+print (numero*2)
+letra = input ("introduce una letra")
+print ("tu letra es la " ) 
+print (letra)

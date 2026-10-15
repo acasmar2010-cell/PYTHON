@@ -1,1 +1,18 @@
+#ejercicio 2
+# Escribir un programa que almacene la cadena de caracteres contraseña en una variable, 
+# pregunte al usuario por la contraseña e imprima por pantalla 
+# si la contraseña introducida por el usuario coincide 
+# con la guardada en la variable sin tener en cuenta mayúsculas y minúsculas. 
+
+
+contrasenausu = input ("dime la contraseña: ")
+
+
+contrasena = ("manteca123")
+
+if contrasenausu.lower() == contrasena.lower():
+    print ("la contraseña coincide, es correcta")
+
+else:
+    print ("la contraseña no coincide, es incorrecta")
 

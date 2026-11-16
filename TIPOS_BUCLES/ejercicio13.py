@@ -5,14 +5,11 @@ salir = "salir"
 
 while True:
     escribe = input ("introduce lo que quieras: ")
-    if escribe != salir:
-        print (escribe) 
-        
-    elif escribe == salir:
+    if escribe == salir:
         break
-
-
-
+    else:
+        
+        print (escribe)
 
 
     

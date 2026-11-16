@@ -15,3 +15,7 @@ elif nombre.upper() > "N" and sexo == "masculino":
     print ("perteneces al grupo A")
 else: 
     print (" perteneces al grupo B")
+
+
+
+    
